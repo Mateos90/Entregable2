@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="../CSS/entregablestyle.css">
+    </head>
+    <meta charset="utf-8">
+    <body>
+        <main>
+            <header>
+                <div class="menu">
+                <img src="../IMG/logo.svg">
+            </header>   
+                
+<nav>
+                <ul>
+                    <li><a href="#">Residentes</a></li>
+                    <li><a href="#">Negocios</a></li>
+                    <li><a href="#">Visitantes</a></li>
+                    <li><a href="#">Gobierno</a></li>
+                </ul>
+</nav>
+<section class="container">
+    <img src="../IMG/hero.jpg">
+    <div>
+     <p><span>APRENDE A PROGRAMAR</span>
+        <br>
+    <span>EN LAS</span>
+         <br>
+    <span>ESCUELAS DE CODIGO</span> 
+          <br>
+    <span>DE LA CDMX</span></p><span style="color:white"></span><p>
+    </div>  
+</section>
+
+<footer>
+    <h3>¿QUIEN SE PUEDE INSCRIBIR?<br>
+        Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana<br>
+        *Menores de edad deberán entrar a las instalaciones acompañados de un adulto.
+    </h3>
+<footer>
+
+
+
+
+                </div>
+        </main>
+    </body>
+</html>
+                
+                
+             ******************CSS***************
+             
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    
+    
+}
+
+
+.menu{
+    width: 800px;
+}
+
+img{
+    width: 250px;
+    height: 50px;
+    padding-right: 20%;
+
+}
+
+nav{
+    
+}
+
+ul{
+    display: flex;
+    margin-left: auto;
+    justify-content:right;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+
+section img{
+    width: 100%;
+    height: 100%;
+}
+
+.container p {
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left 60%;
+    transform: translate(100%, 30%);
+}
+
+footer{
+    font-family: height; 10px;
+    justify-content:center;
+}
+             
+             
